@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Webstore Smoke TestSuite">
+  <test thread-count="1" name="Test UI of new Webstore" preserve-order = "true">
+    <classes>
+      <class name="TestCases.Verify_US_Quote_Convert_to_Order_Test"/>
+      <class name="TestCases.Verify_US_local_Order_Test"/>
+     <class name="TestCases.Verify_MCE_Quote_Convert_to_Order_Test"/> 
+      <!--  <class name="TestCases.XVerify_SplitShipment"/>  -->
+      <!-- <class name="TestCases.Verify_CartPage_Test"/> -->
+      <!--<class name="TestCases.Verify_DashBoardPage_Test"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

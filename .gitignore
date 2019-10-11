@@ -1,0 +1,6 @@
+ScreenShots
+target
+*.class
+bin
+*.classpath
+test-output
